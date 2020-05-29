@@ -10,8 +10,8 @@
 **Example:** python generate_perturbation.py --dataset cora --radius 10 --fake_rate 0.025 --step 10
 
 *dataset: the network dataset you are going to attack* \
-*radius: the radius of the l2 Norm Projection*
-*fake_rate: the ratio of patch nodes to the original graph size*
+*radius: the radius of the l2 Norm Projection* \
+*fake_rate: the ratio of patch nodes to the original graph size* \
 *step: the learning step of updating the patch connection entries*
 
 
