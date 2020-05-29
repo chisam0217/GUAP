@@ -34,6 +34,7 @@ Some patch results trained by GUAP are provided in Dropbox: \
 **Citeseer**: radius = 10, step = 10, fake_rate=0.01 \
 **Pol.Blogs**: radius = 10, step = 10, fake_rate=0.05 \
 You can directly use them for testing the attack performances. \
+
 Download link: https://www.dropbox.com/sh/w6osydcz4y8wkme/AAAE8O_v2kZ1Ojt7m-g7Khi-a?dl=0
 
 
