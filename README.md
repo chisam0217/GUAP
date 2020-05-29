@@ -7,7 +7,7 @@
 
 ## Train the attack model 
 
-**Example:** ```python generate_perturbation.py --dataset cora --radius 10 --fake_rate 0.025 --step 10```
+**Example:** ```python generate_perturbation.py --dataset cora --radius 10 --fake_rate 0.01 --step 10```
 
 *dataset: the network dataset you are going to attack* \
 *radius: the radius of the l2 Norm Projection* \
@@ -18,7 +18,7 @@
 ## Evaluate the test ASR
 After finishing the training of the GUA, we then evaluate the test asr over the test nodes 
 
-**Example:** ```python eval_baseline.py --dataset cora --radius 10 --fake_rate 0.025 --evaluate_mode universal```
+**Example:** ```python eval_baseline.py --dataset cora --radius 10 --fake_rate 0.01 --evaluate_mode universal```
 
 *dataset: the network dataset you are going to attack* \
 *radius: the radius of the l2 Norm Projection*
