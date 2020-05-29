@@ -331,7 +331,7 @@ def universal_attack(attack_epoch, max_epoch, file_path):
             output = model(new_feat, x_p)
 
             if int(torch.argmax(output[k])) == int(torch.argmax(ori_output[k])):
-                dr, iter = GMP(innormal_x_p, x_p, k, num_classes, degree_p)
+                dr, iter = IGP(innormal_x_p, x_p, k, num_classes, degree_p)
                 if iter < max_iter_df-1:
                     tmp_new_adj = modify_adj(tmp_new_adj, dr, k)
                 else:
@@ -339,7 +339,7 @@ def universal_attack(attack_epoch, max_epoch, file_path):
             else:
                 print ('attack succeeds')
             print ('the new adj', np.sum(tmp_new_adj[-num_fake:, :-num_fake]))
-        print ('the GMP time cost is', time.time()-attack_time)
+        print ('the IGP time cost is', time.time()-attack_time)
         
 
         res = []
@@ -456,7 +456,7 @@ def normalize_add_perturb(ori_adj, pert, single_node, idx, rate):
 
 
 
-def GMP(innormal_adj, ori_adj, idx, num_classes, degree, overshoot=0.02, max_iter=30):
+def IGP(innormal_adj, ori_adj, idx, num_classes, degree, overshoot=0.02, max_iter=30):
     #innormal_adj: the perturbed adjacency matrix not normalized
     #ori_adj: the normalized perturbed adjacency matrix 
     model.eval()
