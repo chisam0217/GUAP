@@ -1,4 +1,4 @@
-# Graph Universal Attack by Adversarial Patching (GUAP)
+# Graph Universal Attack Through Adversarial Patching (GUAP)
 
 ## Usage
 * PyTorch 0.4 or 0.5 
