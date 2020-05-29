@@ -30,9 +30,9 @@ After finishing the training of the GUA, we then evaluate the test asr over the 
 * "full_connection": guap with full patch connections
 
 Some patch trained by GUAP are provided: \
-Cora: **radius = 10, step = 10, fake_rate=0.01** \
-Citeseer: **radius = 10, step = 10, fake_rate=0.01** \
-Pol.Blogs: **radius = 10, step = 10, fake_rate=0.05**
+**Cora**: radius = 10, step = 10, fake_rate=0.01** \
+**Citeseer**: radius = 10, step = 10, fake_rate=0.01 \
+**Pol.Blogs**: radius = 10, step = 10, fake_rate=0.05
 
 You can directly use them for testing the attack performances.
 
