@@ -16,7 +16,7 @@
 
 
 ## Evaluate the test ASR
-After finishing the training of the GUA, we then evaluate the test asr over the test nodes 
+After finishing the training of the GUAP, we then evaluate the test asr over the test nodes 
 
 **Example:** ```python eval_baseline.py --dataset cora --radius 10 --fake_rate 0.01 --evaluate_mode universal```
 
