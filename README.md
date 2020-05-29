@@ -34,6 +34,7 @@ Some patch results trained by GUAP are provided: \
 **Citeseer**: radius = 10, step = 10, fake_rate=0.01 \
 **Pol.Blogs**: radius = 10, step = 10, fake_rate=0.05
 
+They can be accesses from the Dropbox link: https://www.dropbox.com/sh/w6osydcz4y8wkme/AAAE8O_v2kZ1Ojt7m-g7Khi-a?dl=0
 You can directly use them for testing the attack performances.
 
 The verision of jupyter notebook is also supported as: evaluate.ipynb
