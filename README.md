@@ -32,10 +32,10 @@ After finishing the training of the GUA, we then evaluate the test asr over the 
 Some patch results trained by GUAP are provided in Dropbox: \
 **Cora**: radius = 10, step = 10, fake_rate=0.01 \
 **Citeseer**: radius = 10, step = 10, fake_rate=0.01 \
-**Pol.Blogs**: radius = 10, step = 10, fake_rate=0.05
-
+**Pol.Blogs**: radius = 10, step = 10, fake_rate=0.05 \
+You can directly use them for testing the attack performances. \
 Download link: https://www.dropbox.com/sh/w6osydcz4y8wkme/AAAE8O_v2kZ1Ojt7m-g7Khi-a?dl=0
-You can directly use them for testing the attack performances.
+
 
 The verision of jupyter notebook is also supported as: evaluate.ipynb
 
