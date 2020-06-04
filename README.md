@@ -23,11 +23,11 @@ After finishing the training of the GUAP, we then evaluate the test asr over the
 *dataset: the network dataset you are going to attack* \
 *radius: the radius of the l2 Norm Projection*
 *evaluate_mode* has five values: 
-* "universal": guap
-* "rand_feat": guap with regenerated node features
-* "no_connection": guap without patch connections
-* "random_connection": guap with random patch connections
-* "full_connection": guap with full patch connections
+* "universal": GUAP
+* "rand_feat": GUAP with regenerated node features
+* "no_connection": GUAP without patch connections
+* "random_connection": GUAP with random patch connections
+* "full_connection": GUAP with full patch connections
 
 Some patch results trained by GUAP can be accessed from [Dropbox](https://www.dropbox.com/sh/w6osydcz4y8wkme/AAAE8O_v2kZ1Ojt7m-g7Khi-a?dl=0): \
 **Cora**: radius = 10, step = 10, fake_rate=0.01 \
